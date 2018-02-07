@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author dani
  */
-public class pedirDatos{
+public class PedirDatos{
     public static String pedirString(String mensage){
         return JOptionPane.showInputDialog(mensage);
     }
